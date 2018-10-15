@@ -23,6 +23,9 @@
     background-color: #525252;
 }
 
+.bg-colour-three-reasons {
+    background-color: #ffffff;
+}
 
 /*----------------Special Paddings/Margins/text/etc----------------*/
 
@@ -45,7 +48,24 @@ h6 {
     color: #fafafa;
 }
 
-/*----------------headings and marins----------------*/
+.section-column{
+    padding: 30px;
+    float: none;
+    display: table-cell;
+}
+
+.row-table:{
+    display: table;
+}
+
+.section-heading{
+    font-family: "Exo",sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom:40px;
+}
+
+/*----------------headings and margins----------------*/
 
 header {
     margin: 0;
