@@ -210,3 +210,14 @@ footer .cv-pdf i:hover {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
+
+/*----------------three reasons----------------*/
+
+.three-reasons-icon{
+    font-size: 26px;
+    color: #e67e22;
+}
+
+.three-reasons-header{
+    margin-bottom: 15px;
+}
