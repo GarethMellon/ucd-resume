@@ -38,6 +38,11 @@ html {
 .bg-colour-work-history {
     background-color: #9b59b6;
 }
+
+.bg-colour-contact {
+    background-color: #ffffff;
+}
+
 /*----------------Special Paddings/Margins/text/etc----------------*/
 
 h1,
@@ -164,6 +169,7 @@ header {
     color: #fafafa;
     margin-bottom: 50px;
 }
+
 /*----------------footer----------------*/
 
 #footer-details {
@@ -185,7 +191,7 @@ footer .cv-pdf i {
 }
 
 footer .cv-pdf i:hover {
-    color: #e84601;
+    color: #e84610;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -213,7 +219,7 @@ footer .cv-pdf i:hover {
 }
 
 .social-links il a i:hover {
-    background-color: #e84601;
+    background-color: #e84610;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -250,7 +256,7 @@ footer .cv-pdf i:hover {
     margin: 0;
 }
 
-.personal-info-item .key{
+.personal-info-item .key {
     display: inline-block;
     width: 30%;
     margin-right: 21px;
@@ -276,26 +282,32 @@ footer .cv-pdf i:hover {
         float: none;
         display: table-cell;
     }
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
 
 
 /*----------------Skills progress bar----------------*/
 
-.progress{
+.progress {
     position: relative;
     height: 25px;
 }
 
-.progress-type{
+.progress-type {
     position: absolute;
     left: 0px;
     font-weight: 400;
     padding: 3px 30px 2px 0px;
     color: #fafafa;
-    background-color: rgb(25,25,25,0.2);
+    background-color: rgb(25, 25, 25, 0.2);
 }
 
-.progress-section{
+.progress-section {
     margin: 40px 20px;
 }
 
@@ -313,20 +325,20 @@ footer .cv-pdf i:hover {
     margin: 0px;
 }
 
-.timeline-item:before{
+.timeline-item:before {
     content: attr(dates);
     position: absolute;
     left: 2.5em;
     top: 3em;
     display: block;
-    font-family: "Exo",sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 500;
     font-size: 0.8em;
     padding: 0px;
     margin: 0px;
 }
 
-.timeline-item:after{
+.timeline-item:after {
     width: 12px;
     height: 12px;
     display: block;
@@ -338,6 +350,29 @@ footer .cv-pdf i:hover {
     background-color: #fafafa;
 }
 
-.history-itmes{
+.history-itmes {
     padding-bottom: 30px;
+}
+
+
+/*----------------Contact----------------*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e84610;
+    color: #fafafa;
 }
