@@ -35,6 +35,9 @@ html {
     background-color: #f4f4f4;
 }
 
+.bg-colour-work-history {
+    background-color: #9b59b6;
+}
 /*----------------Special Paddings/Margins/text/etc----------------*/
 
 h1,
@@ -157,7 +160,10 @@ header {
     height: 120px;
 }
 
-
+.history-header {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
 /*----------------footer----------------*/
 
 #footer-details {
@@ -270,4 +276,68 @@ footer .cv-pdf i:hover {
         float: none;
         display: table-cell;
     }
+}
+
+
+/*----------------Skills progress bar----------------*/
+
+.progress{
+    position: relative;
+    height: 25px;
+}
+
+.progress-type{
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 0px;
+    color: #fafafa;
+    background-color: rgb(25,25,25,0.2);
+}
+
+.progress-section{
+    margin: 40px 20px;
+}
+
+/*----------------Work History----------------*/
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.timeline-item:before{
+    content: attr(dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo",sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0px;
+    margin: 0px;
+}
+
+.timeline-item:after{
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background-color: #fafafa;
+}
+
+.history-itmes{
+    padding-bottom: 30px;
 }
